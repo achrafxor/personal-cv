@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achraf Saoud | Cloud Architect</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="bg-glows">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="glow glow-3"></div>
+    </div>
+
+    <div id="global-flashlight"></div>
+
+    <nav class="navbar">
+        <div id="progressBar" class="scroll-progress-bar"></div>
+        <div class="nav-content">
+            <div class="nav-logo">AS<span class="dot">.</span></div>
+            <ul class="nav-links">
+                <li><a href="#competences" class="magnetic-btn">Compétences</a></li>
+                <li><a href="#kpis" class="magnetic-btn">Métriques</a></li>
+                <li><a href="#experience" class="magnetic-btn">Expérience</a></li>
+                <li><a href="#certifications" class="magnetic-btn">Certifications</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 1. INTRO (HERO) -->
+    <header class="hero container">
+        <div class="hero-main">
+            <div class="hero-content reveal-on-scroll">
+                <div class="hero-badge">
+                    <span class="status-dot"></span> 
+                    <span>5+ Ans d’expérience • Expert Cloud & Sécurité</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    Achraf <span class="gradient-text">Saoud</span>
+                </h1>
+                
+                <h2 class="hero-subtitle">Cloud Architect</h2>
+                
+                <p class="hero-description">
+                    Architecte de la résilience cloud et expert en <strong>Security by Design</strong>. J'aide les entreprises à transformer leurs infrastructures critiques en écosystèmes <strong>Kubernetes</strong> automatisés, ultra-sécurisés et à haute disponibilité.
+                </p>
+
+                <div class="hero-trust">
+                    <span>Expérience confirmée chez</span>
+                    <div class="trust-logos">
+                        <strong>Databiz</strong>
+                        <span class="trust-sep">/</span>
+                        <strong>Numeryx</strong>
+                        <span class="trust-sep">/</span>
+                        <strong>BE-SOFTILYS</strong>
+                    </div>
+                </div>
+                
+                <div class="hero-actions">
+                    <a href="mailto:achrafxor@gmail.com" class="btn-primary magnetic-btn">
+                        <span>Get in Touch</span> <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/achraf-saoud-7b2530197/" target="_blank" class="social-icon magnetic-btn" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-icon magnetic-btn" title="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-expertise">
+                    <span class="exp-pill">AWS</span>
+                    <span class="exp-pill">Kubernetes</span>
+                    <span class="exp-pill">Terraform</span>
+                    <span class="exp-pill">DevSecOps</span>
+                </div>
+            </div>
+            
+            <div class="hero-visual reveal-on-scroll" style="transition-delay: 200ms;">
+                <div class="portrait-frame">
+                    <div class="portrait-glow"></div>
+                    <img src="linkedachraf.png" alt="Achraf Saoud" class="hero-avatar">
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator reveal-on-scroll" style="transition-delay: 500ms;">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span class="scroll-text">Explore my impact</span>
+        </div>
+    </header>
+
+    <!-- 2. COMPÉTENCES TECHNIQUES -->
+    <section id="competences" class="section container">
+        <div class="section-header reveal-on-scroll">
+            <h3 class="section-title">Compétences Techniques</h3>
+            <div class="section-line"></div>
+        </div>
+        
+        <div class="skills-grid bento-layout">
+            <div class="glass-card skill-category tilt-element reveal-on-scroll bento-span-2">
+                <div class="skill-icon"><i class="fa-solid fa-cloud"></i></div>
+                <h4>Cloud & Containers</h4>
+                <div class="skill-tags">
+                    <span class="tag"><i class="fa-brands fa-aws"></i> AWS (ECS, RDS, S3)</span>
+                    <span class="tag"><i class="fa-solid fa-server"></i> OpenStack</span>
+                    <span class="tag"><i class="fa-solid fa-dharmachakra"></i> Kubernetes</span>
+                    <span class="tag"><i class="fa-brands fa-docker"></i> Docker</span>
+                </div>
+            </div>
+            <div class="glass-card skill-category tilt-element reveal-on-scroll bento-span-1" style="transition-delay: 100ms;">
+                <div class="skill-icon"><i class="fa-solid fa-code-branch"></i></div>
+                <h4>IaC & CI/CD</h4>
+                <div class="skill-tags">
+                    <span class="tag"><i class="fa-solid fa-code"></i> Terraform</span>
+                    <span class="tag"><i class="fa-solid fa-a"></i> Ansible</span>
+                    <span class="tag"><i class="fa-brands fa-gitlab"></i> GitLab CI</span>
+                    <span class="tag"><i class="fa-brands fa-jenkins"></i> Jenkins</span>
+                </div>
+            </div>
+            <div class="glass-card skill-category tilt-element reveal-on-scroll bento-span-1" style="transition-delay: 200ms;">
+                <div class="skill-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <h4>Sécurité & DevSecOps</h4>
+                <div class="skill-tags">
+                    <span class="tag"><i class="fa-solid fa-magnifying-glass"></i> SAST / DAST</span>
+                    <span class="tag"><i class="fa-solid fa-shield"></i> OWASP</span>
+                    <span class="tag"><i class="fa-solid fa-lock"></i> Vault</span>
+                </div>
+            </div>
+            <div class="glass-card skill-category tilt-element reveal-on-scroll bento-span-2" style="transition-delay: 300ms;">
+                <div class="skill-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <h4>Data & Observabilité</h4>
+                <div class="skill-tags">
+                    <span class="tag"><i class="fa-solid fa-database"></i> PostgreSQL</span>
+                    <span class="tag"><i class="fa-solid fa-chart-pie"></i> Prometheus</span>
+                    <span class="tag"><i class="fa-solid fa-chart-bar"></i> Grafana</span>
+                    <span class="tag"><i class="fa-solid fa-list-check"></i> Loki & Promtail</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. GLOBAL KPIS -->
+    <section id="kpis" class="section container">
+        <div class="impact-grid">
+            <div class="glass-card metric-card tilt-element reveal-on-scroll">
+                <div class="metric-icon"><i class="fa-solid fa-star"></i></div>
+                <div class="metric-value-wrapper">
+                    <span class="metric-value counter" data-target="5">0</span>
+                    <span class="metric-suffix text-gradient">+</span>
+                </div>
+                <div class="metric-label">Années d'expérience</div>
+            </div>
+            <div class="glass-card metric-card tilt-element reveal-on-scroll" style="transition-delay: 100ms;">
+                <div class="metric-icon"><i class="fa-solid fa-rocket"></i></div>
+                <div class="metric-value-wrapper">
+                    <span class="metric-value counter" data-target="4">0</span>
+                </div>
+                <div class="metric-label">Projets en Production</div>
+            </div>
+            <div class="glass-card metric-card tilt-element reveal-on-scroll" style="transition-delay: 200ms;">
+                <div class="metric-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="metric-value-wrapper">
+                    <span class="metric-value counter" data-target="3">0</span>
+                </div>
+                <div class="metric-label">Certifications Professionnelles</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. EXPÉRIENCES -->
+    <section id="experience" class="section container">
+        <div class="section-header reveal-on-scroll">
+            <h3 class="section-title">Expériences Professionnelles</h3>
+            <div class="section-line"></div>
+        </div>
+        
+        <div class="timeline">
+            
+            <!-- Carcheck -->
+            <div class="timeline-item reveal-on-scroll sticky-card" style="top: 120px; z-index: 1;">
+                <div class="job-meta">
+                    <span class="job-date">Juil 2025 — Présent</span>
+                </div>
+                <div class="glass-card job-content tilt-element">
+                    <div class="job-header" style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; flex-wrap: wrap; gap: 16px;">
+                        <div>
+                            <h4 class="job-title" style="margin-bottom: 6px;">Consultant Cloud AWS & DevSecOps</h4>
+                            <div class="job-company text-gradient" style="margin-bottom: 0;">Databiz | Projet: Carcheck</div>
+                        </div>
+                        <a href="https://coteauto.autobiz.fr/" target="_blank" class="project-link-btn">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Voir le Projet
+                        </a>
+                    </div>
+                    
+                    <div class="tech-stack-mini">
+                        <span class="tag">AWS ECS Fargate</span>
+                        <span class="tag">RDS PostgreSQL</span>
+                        <span class="tag">Transfer Family</span>
+                        <span class="tag">API Gateway</span>
+                        <span class="tag">Lambda</span>
+                        <span class="tag">S3</span>
+                        <span class="tag">ElasticSearch</span>
+                        <span class="tag">EFS</span>
+                        <span class="tag">Terraform</span>
+                        <span class="tag">GitLab CI</span>
+                    </div>
+
+                    <ul class="job-bullets">
+                        <li>Déploiement via <strong>Terraform</strong> de l'infrastructure AWS (ECS Fargate, RDS PostgreSQL, ElasticSearch, EFS) pour le leader de la cotation automobile, supportant <strong>+30 millions de requêtes/an</strong> pour un réseau de <strong>6500 points de vente</strong>.</li>
+                        <li>Mise en place d'un flux d'ingestion de fichiers B2B via AWS Transfer Family (SFTP), avec authentification personnalisée via API Gateway et Lambda, et traitement asynchrone via S3.</li>
+                        <li>Configuration de l'architecture réseau (VPC privé, ALB, NAT Gateway) et accès sécurisés via un Bastion EC2.</li>
+                        <li>Intégration de la sécurité applicative (Secrets Manager, IAM Least Privilege) au sein des pipelines GitLab CI.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Toll-xpress -->
+            <div class="timeline-item reveal-on-scroll sticky-card" style="top: 140px; z-index: 2;">
+                <div class="job-meta">
+                    <span class="job-date">Sept 2023 — Juin 2025</span>
+                </div>
+                <div class="glass-card job-content tilt-element">
+                    <div class="job-header" style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; flex-wrap: wrap; gap: 16px;">
+                        <div>
+                            <h4 class="job-title" style="margin-bottom: 6px;">Consultant DevOps</h4>
+                            <div class="job-company text-gradient" style="margin-bottom: 0;">Numeryx | Projet: Toll-xpress</div>
+                        </div>
+                        <a href="https://tollxpress.fr/" target="_blank" class="project-link-btn">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Voir le Projet
+                        </a>
+                    </div>
+
+                    <div class="tech-stack-mini">
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">Angular</span>
+                        <span class="tag">Kafka</span>
+                        <span class="tag">Nginx</span>
+                        <span class="tag">Keycloak</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">Jenkins</span>
+                        <span class="tag">Ansible</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">OpenStack</span>
+                    </div>
+
+                    <ul class="job-bullets">
+                        <li>Implémentation des pipelines CI/CD via Jenkins et Ansible pour une architecture microservices (Spring Boot / Angular).</li>
+                        <li>Conteneurisation (Docker) et déploiement automatisé des services métiers sur des instances OpenStack.</li>
+                        <li>Intégration de scans de vulnérabilités (tests SAST/DAST) au sein des pipelines de déploiement.</li>
+                        <li>Gestion et sécurisation de la configuration (Nginx, Keycloak, PostgreSQL).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Fraud & Coffre-Fort -->
+            <div class="timeline-item reveal-on-scroll sticky-card" style="top: 160px; z-index: 3;">
+                <div class="job-meta">
+                    <span class="job-date">Oct 2020 — Juil 2023</span>
+                </div>
+                <div class="glass-card job-content tilt-element">
+                    <div class="job-header" style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; flex-wrap: wrap; gap: 16px;">
+                        <div>
+                            <h4 class="job-title" style="margin-bottom: 6px;">Consultant DevOps</h4>
+                            <div class="job-company text-gradient" style="margin-bottom: 0;">BE-SOFTILYS | Projets: Fraud & Coffre-Fort</div>
+                        </div>
+                        <a href="https://www.myswisskeeper.com/" target="_blank" class="project-link-btn">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Voir le Projet
+                        </a>
+                    </div>
+
+                    <div class="tech-stack-mini">
+                        <span class="tag">Centos7</span>
+                        <span class="tag">OpenStack</span>
+                        <span class="tag">Kubernetes</span>
+                        <span class="tag">Terraform</span>
+                        <span class="tag">Ansible</span>
+                        <span class="tag">Vault</span>
+                        <span class="tag">Prometheus</span>
+                        <span class="tag">AlertManager</span>
+                        <span class="tag">Grafana</span>
+                        <span class="tag">Loki</span>
+                        <span class="tag">Promtail</span>
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">Maven</span>
+                        <span class="tag">Angular</span>
+                        <span class="tag">Nginx</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">Keycloak</span>
+                        <span class="tag">RabbitMQ</span>
+                        <span class="tag">ElasticSearch</span>
+                        <span class="tag">GitLab CI</span>
+                    </div>
+
+                    <ul class="job-bullets">
+                        <li>Provisionnement d'une infrastructure haute disponibilité sur OpenStack à l'aide de Terraform.</li>
+                        <li>Administration du cluster Kubernetes pour héberger et orchestrer les microservices de l'application.</li>
+                        <li>Déploiement de la stack d'observabilité complète (Prometheus, AlertManager, Grafana, Loki, Promtail).</li>
+                        <li>Implémentation de pipelines DevSecOps sur GitLab CI incluant des tests de pénétration (standards OWASP).</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 5 & 6. CERTIFICATIONS ET FORMATIONS -->
+    <section class="section container">
+        <div class="grid-2">
+            
+            <div id="certifications">
+                <div class="section-header reveal-on-scroll" style="margin-bottom: 30px;">
+                    <h3 class="section-title">Certifications</h3>
+                </div>
+                <div class="cert-grid">
+                    <div class="glass-card cert-card tilt-element reveal-on-scroll">
+                        <div class="cert-icon-wrapper in-progress">
+                            <i class="fa-brands fa-aws text-gradient"></i>
+                            <div class="spinner-ring"></div>
+                        </div>
+                        <div class="cert-info">
+                            <h4 style="margin-bottom: 4px; font-size: 1.05rem;">AWS Solutions Architect Associate</h4>
+                            <div class="cert-status in-progress"><i class="fa-regular fa-clock"></i> Prévu pour Mai 2026</div>
+                        </div>
+                    </div>
+                    <div class="glass-card cert-card tilt-element reveal-on-scroll" style="transition-delay: 100ms;">
+                        <div class="cert-icon-wrapper achieved">
+                            <i class="fa-solid fa-dharmachakra text-gradient"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h4 style="margin-bottom: 4px; font-size: 1.05rem;">Certified Kubernetes Administrator (CKA)</h4>
+                            <div class="cert-status achieved"><i class="fa-solid fa-circle-check"></i> Obtenu en Décembre 2023</div>
+                        </div>
+                    </div>
+                    <div class="glass-card cert-card tilt-element reveal-on-scroll" style="transition-delay: 200ms;">
+                        <div class="cert-icon-wrapper achieved">
+                            <i class="fa-solid fa-chart-pie text-gradient"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h4 style="margin-bottom: 4px; font-size: 1.05rem;">McKinsey Forward Program</h4>
+                            <div class="cert-status achieved"><i class="fa-solid fa-circle-check"></i> Obtenu en Juillet 2025</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="formation">
+                <div class="section-header reveal-on-scroll" style="margin-bottom: 30px;">
+                    <h3 class="section-title">Formation & Langues</h3>
+                </div>
+                <div class="glass-card about-card tilt-element reveal-on-scroll" style="height: calc(100% - 70px);">
+                    
+                    <h4 style="margin-bottom: 20px; font-size: 1.1rem; color: #fafafa;"><i class="fa-solid fa-graduation-cap text-gradient"></i> Cursus Académique</h4>
+                    
+                    <div class="formation-card">
+                        <div class="formation-info">
+                            <h5 style="font-size: 1.05rem; margin-bottom: 4px;">Licence Fondamentale en Informatique</h5>
+                            <span class="formation-school" style="color: var(--text-secondary); display: block; margin-bottom: 4px;">ISG Tunis</span>
+                            <span class="formation-date tag" style="font-size: 0.75rem; background: rgba(79, 140, 255, 0.1); color: #9dc0ff; border: none; padding: 4px 8px;">Septembre 2020</span>
+                        </div>
+                    </div>
+
+                    <h4 style="margin-bottom: 20px; margin-top: 40px; font-size: 1.1rem; color: #fafafa;"><i class="fa-solid fa-language text-gradient"></i> Langues</h4>
+                    
+                    <div class="languages-grid">
+                        <div class="language-card">
+                            <div class="flag-circle" style="background-image: url('https://flagcdn.com/w80/tn.png');"></div>
+                            <div class="lang-info">
+                                <span class="lang-name">Arabe</span>
+                                <span class="lang-level">Natif</span>
+                                <div class="proficiency-dots">
+                                    <div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="language-card">
+                            <div class="flag-circle" style="background-image: url('https://flagcdn.com/w80/fr.png');"></div>
+                            <div class="lang-info">
+                                <span class="lang-name">Français</span>
+                                <span class="lang-level">Courant</span>
+                                <div class="proficiency-dots">
+                                    <div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot empty"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="language-card">
+                            <div class="flag-circle" style="background-image: url('https://flagcdn.com/w80/gb.png');"></div>
+                            <div class="lang-info">
+                                <span class="lang-name">Anglais</span>
+                                <span class="lang-level">Courant</span>
+                                <div class="proficiency-dots">
+                                    <div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot empty"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="language-card">
+                            <div class="flag-circle" style="background-image: url('https://flagcdn.com/w80/es.png');"></div>
+                            <div class="lang-info">
+                                <span class="lang-name">Espagnol</span>
+                                <span class="lang-level">Débutant</span>
+                                <div class="proficiency-dots">
+                                    <div class="dot filled"></div><div class="dot filled"></div><div class="dot empty"></div><div class="dot empty"></div><div class="dot empty"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div>
+                <span class="nav-logo">AS<span class="dot">.</span></span>
+                <p class="text-muted mt-2" style="font-size: 0.85rem;">Cloud Architect</p>
+            </div>
+            <div>
+                <a href="mailto:achrafxor@gmail.com" class="footer-link">achrafxor@gmail.com</a>
+                <a href="https://linkedin.com/in/achraf-saoud-7b2530197/" target="_blank" class="footer-link">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
